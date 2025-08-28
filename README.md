@@ -88,7 +88,7 @@ java -cp out MainFast "Satori_@@@@@@@" "7D543A64" | Tee-Object -FilePath result.
 
 - 多线程分块任务
 
-- 在常见配置下，速度可达到 每秒亿级候选。
+- 在常见配置下，速度可达到每秒亿级候选。
 
 ### 限制与注意事项
 
