@@ -1,4 +1,4 @@
-# EAID_Generator (高性能命令行版)
+# Battlefield1_ID_Generator
 
 一个用于 **Battlefield 1 中文 ID 查询** 的工具。  
 给定一个 EAID 模式（含通配符 `@`）和目标 Hash，本工具会暴力枚举可能的 ID，并匹配到对应的中文 ID。
@@ -92,7 +92,7 @@ java -cp out MainFast "Satori_@@@@@@@" "7D543A64" | Tee-Object -FilePath result.
 
 ### 限制与注意事项
 
-- EAID 最长 22 个字符
+- EAID 最长 16 个字符
 
 - 通配符数量 ≥ 11 时搜索空间过大（64^11 > Long.MAX_VALUE），程序会提示
 
@@ -104,4 +104,4 @@ java -cp out MainFast "Satori_@@@@@@@" "7D543A64" | Tee-Object -FilePath result.
 ```
 ### 致谢
 
-- 原项目 EAID_Generator
+- 原项目 [EAID_Generator](https://github.com/LaoHuaJiOfficial/EAID_Generator)
