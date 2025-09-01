@@ -67,8 +67,8 @@ public class MainFast {
             }
         }
 
-        if (pattern.length() > 22) {
-            System.err.println("EAID 过长（最多 22 位）");
+        if (pattern.length() > 16) {
+            System.err.println("EAID 过长（最多 16 位）");
             System.exit(2);
         }
 
